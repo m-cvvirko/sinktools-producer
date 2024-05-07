@@ -1,9 +1,9 @@
 package pl.achp.sinktools.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
 
-@Configuration
+@Component
 @ConfigurationProperties(prefix="achp.kafka")
 public class KafkaProperties {
 
