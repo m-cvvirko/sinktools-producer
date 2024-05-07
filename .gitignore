@@ -1,0 +1,42 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Java and Maven build folders
+target/
+build/
+
+# Maven wrapper files (uncomment if you are not including them)
+#!.mvn/wrapper/maven-wrapper.jar
+
+# Dependency directories (remove if dependencies are to be tracked)
+.gradle/
+out/
+
+# IDE specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.vs/
+
+# Package binary files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Application-specific files
+# (uncomment if you do not want to include application.properties or application.yml)
+#src/main/resources/application.properties
+#src/main/resources/application.yml
